@@ -11,10 +11,15 @@ services:
       VERSION: "1.20.1"
       FORGE_VERSION: "47.2.32"
       ONLINE_MODE: FALSE
+      MAX_PLAYERS: 6
+      ENABLE_COMMAND_BLOCK: true
+      HARDCORE: false
+      SERVER_NAME: ValorantSoQueMelhor
+      OPS: |
+        Flanders
       WHITELIST: |
-              user1
-              user2
-              user3
+        Flanders
+        Yoshio
     volumes:
       # attach the relative directory 'data' to the container's /data path
       - ./data:/data
