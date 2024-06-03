@@ -14,12 +14,13 @@ services:
       MAX_PLAYERS: 6
       ENABLE_COMMAND_BLOCK: true
       HARDCORE: false
-      SERVER_NAME: ValorantSoQueMelhor
+      SERVER_NAME: "ValorantSoQueMelhor"
+      DIFFICULTY: "hard"
       OPS: |
-        Flanders
+        "Flanders"
       WHITELIST: |
-        Flanders
-        Yoshio
+        "Flanders"
+        "Yoshio"
     volumes:
       # attach the relative directory 'data' to the container's /data path
       - ./data:/data
