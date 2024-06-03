@@ -16,11 +16,10 @@ services:
       HARDCORE: false
       SERVER_NAME: "ValorantSoQueMelhor"
       DIFFICULTY: "hard"
-      OPS: |
-        "Flanders"
-      WHITELIST: |
-        "Flanders"
-        "Yoshio"
+      WHITELIST_FILE: "configs/whitelist.json"
+      EXISTING_WHITELIST_FILE: "SYNC_FILE_MERGE_LIST"
+      OPS_FILE: "configs/ops.json"
+      EXISTING_OPS_FILE: "SYNC_FILE_MERGE_LIST"
     volumes:
       # attach the relative directory 'data' to the container's /data path
       - ./data:/data
