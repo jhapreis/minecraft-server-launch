@@ -22,7 +22,10 @@ services:
       EXISTING_OPS_FILE: "SYNC_FILE_MERGE_LIST"
       ENFORCE_WHITELIST: false
       WHITE_LIST: false
+      MODS: "/mods"
+      REMOVE_OLD_MODS: true
     volumes:
       # attach the relative directory 'data' to the container's /data path
       - ./data:/data
       - ./configs:/configs
+      - ./mods:/mods
