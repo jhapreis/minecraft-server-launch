@@ -25,7 +25,8 @@ services:
       MODS: "/mods"
       REMOVE_OLD_MODS: true
       FORCE_WORLD_COPY: false
-      WORLD: "/worlds/2024-06-08_14-51-26_um novo começo.zip"
+      INIT_MEMORY: 1G
+      MAX_MEMORY: 3G
     volumes:
       # attach the relative directory 'data' to the container's /data path
       - ./data:/data
