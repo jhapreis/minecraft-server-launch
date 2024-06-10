@@ -26,7 +26,7 @@ services:
       REMOVE_OLD_MODS: true
       FORCE_WORLD_COPY: false
       INIT_MEMORY: 1G
-      MAX_MEMORY: 2.5G
+      MAX_MEMORY: 3G
     volumes:
       # attach the relative directory 'data' to the container's /data path
       - ./data:/data
