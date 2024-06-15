@@ -1,0 +1,192 @@
+[15Jun2024 15:04:28.499] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server]
+[15Jun2024 15:04:28.503] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.3+9-LTS
+[15Jun2024 15:04:28.507] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.3 by Eclipse Adoptium; OS Linux arch amd64 version 6.8.0-1009-aws
+[15Jun2024 15:04:28.699] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
+[15Jun2024 15:04:28.947] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=jar:file:///data/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar!/ Service=ModLauncher Env=SERVER
+[15Jun2024 15:04:29.393] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[15Jun2024 15:04:31.057] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments []
+[15Jun2024 15:04:31.996] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///data/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/data/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///data/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/data/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties]
+[15Jun2024 15:04:32.143] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///data/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/data/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///data/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/data/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties]
+[15Jun2024 15:04:41.591] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 50.1.0, for MC 1.20.6 with MCP 20240429.135109
+[15Jun2024 15:04:41.596] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v50.1.0 Initialized
+[15Jun2024 15:04:41.628] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[15Jun2024 15:04:42.451] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[15Jun2024 15:04:42.458] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[15Jun2024 15:04:42.793] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[15Jun2024 15:04:43.581] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 50.1.0 Target: null
+[15Jun2024 15:04:44.930] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15Jun2024 15:04:48.142] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1175 recipes
+[15Jun2024 15:04:48.481] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1276 advancements
+[15Jun2024 15:04:49.256] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.6
+[15Jun2024 15:04:49.257] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[15Jun2024 15:04:49.258] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[15Jun2024 15:04:49.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[15Jun2024 15:04:49.402] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[15Jun2024 15:04:49.526] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[15Jun2024 15:04:49.630] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15Jun2024 15:04:49.631] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[15Jun2024 15:04:49.632] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15Jun2024 15:04:49.633] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[15Jun2024 15:04:49.756] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[15Jun2024 15:04:51.628] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: [/[::1]:50458] Disconnecting VANILLA connection attempt: Server is still starting! Please wait before reconnecting.
+[15Jun2024 15:04:56.721] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: [/[::1]:50464] Disconnecting VANILLA connection attempt: Server is still starting! Please wait before reconnecting.
+[15Jun2024 15:04:58.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[15Jun2024 15:04:59.739] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[15Jun2024 15:04:59.780] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[15Jun2024 15:04:59.800] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[15Jun2024 15:04:59.864] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[15Jun2024 15:05:00.570] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[15Jun2024 15:05:00.861] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[15Jun2024 15:05:01.392] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[15Jun2024 15:05:01.861] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[15Jun2024 15:05:01.874] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: [/[::1]:42260] Disconnecting VANILLA connection attempt: Server is still starting! Please wait before reconnecting.
+[15Jun2024 15:05:02.190] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3831 ms
+[15Jun2024 15:05:02.192] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (12.538s)! For help, type "help"
+[15Jun2024 15:05:02.193] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting remote control listener
+[15Jun2024 15:05:02.200] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Listener started
+[15Jun2024 15:05:02.201] [Server thread/INFO] [net.minecraft.server.rcon.thread.RconThread/]: RCON running on 0.0.0.0:25575
+[15Jun2024 15:05:02.219] [LanServerPinger #1/WARN] [net.minecraft.client.server.LanServerPinger/]: LanServerPinger: Network is unreachable
+[15Jun2024 15:05:02.225] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[15Jun2024 15:05:46.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Whitelist is now turned off
+[15Jun2024 15:06:10.395] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: squidgame[/179.94.138.181:51352] logged in with entity id 7 at (1210.5, 68.0, 2454.5)
+[15Jun2024 15:06:10.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: squidgame joined the game
+[15Jun2024 15:06:12.710] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2580ms or 51 ticks behind
+[15Jun2024 15:42:22.171] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: yoshio[/177.83.19.233:54509] logged in with entity id 6749 at (-173.18148280496465, 66.0, 984.2813113465896)
+[15Jun2024 15:42:22.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yoshio joined the game
+[15Jun2024 15:42:24.376] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2246ms or 44 ticks behind
+[15Jun2024 15:43:05.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made squidgame a server operator
+[15Jun2024 15:43:12.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported yoshio to squidgame
+[15Jun2024 15:45:56.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yoshio has made the advancement [Cover Me with Diamonds]
+[15Jun2024 15:45:58.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yoshio has made the advancement [Suit Up]
+[15Jun2024 15:55:58.992] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: squidgame lost connection: Disconnected
+[15Jun2024 15:55:58.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: squidgame left the game
+[15Jun2024 16:11:35.689] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yoshio lost connection: Disconnected
+[15Jun2024 16:11:35.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yoshio left the game
+[15Jun2024 16:14:04.737] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: squidgame[/179.94.138.181:53023] logged in with entity id 14250 at (478.24982647272964, 64.0, 1655.391058179349)
+[15Jun2024 16:14:04.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: squidgame joined the game
+[15Jun2024 16:27:31.553] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Koda[/177.22.168.30:12550] logged in with entity id 18380 at (22.5, 63.0, 150.5)
+[15Jun2024 16:27:31.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koda joined the game
+[15Jun2024 16:27:40.511] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=22, y=63, z=154}
+[15Jun2024 16:27:40.662] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=22, y=63, z=154}
+[15Jun2024 16:27:53.114] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=36, y=63, z=156} BlockPos{x=6, y=68, z=138}
+[15Jun2024 16:27:53.263] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=36, y=63, z=156} BlockPos{x=6, y=68, z=138}
+[15Jun2024 16:27:58.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [squidgame: Teleported Koda to squidgame]
+[15Jun2024 16:29:39.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koda has made the advancement [Sweet Dreams]
+[15Jun2024 16:29:54.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koda has made the advancement [Acquire Hardware]
+[15Jun2024 16:30:13.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koda has made the advancement [Isn't It Iron Pick]
+[15Jun2024 16:30:28.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koda has made the advancement [Stone Age]
+[15Jun2024 16:32:24.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koda has made the advancement [Monster Hunter]
+[15Jun2024 16:32:25.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koda has made the advancement [Not Today, Thank You]
+[15Jun2024 16:32:51.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koda was shot by Skeleton
+[15Jun2024 16:34:29.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koda was shot by Skeleton
+[15Jun2024 16:39:31.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koda has made the advancement [Diamonds!]
+[15Jun2024 16:42:49.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koda was shot by Skeleton
+[15Jun2024 16:51:43.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koda was shot by Skeleton
+[15Jun2024 17:41:09.368] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Biscoito[/186.221.46.78:53964] logged in with entity id 45492 at (1152.0689522888824, 16.0, 2478.300000011921)
+[15Jun2024 17:41:09.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Biscoito joined the game
+[15Jun2024 17:41:22.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Koda> entra ds
+[15Jun2024 17:47:16.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <squidgame> xaero-waypoint:Shared Location:S:1229:63:2445:5:false:0:Internal-overworld-waypoints
+[15Jun2024 17:47:45.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <squidgame> 1215, y, 2460
+[15Jun2024 17:48:12.342] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[15Jun2024 17:48:39.045] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 11715ms or 234 ticks behind
+[15Jun2024 17:49:06.017] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 11971ms or 239 ticks behind
+[15Jun2024 17:49:31.054] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10074ms or 201 ticks behind
+[15Jun2024 17:49:55.552] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9522ms or 190 ticks behind
+[15Jun2024 17:50:16.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koda was shot by Skeleton
+[15Jun2024 17:51:25.076] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2045ms or 40 ticks behind
+[15Jun2024 17:51:54.762] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 14732ms or 294 ticks behind
+[15Jun2024 17:52:25.924] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 16194ms or 323 ticks behind
+[15Jun2024 17:52:53.367] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 12487ms or 249 ticks behind
+[15Jun2024 17:53:25.475] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 17145ms or 342 ticks behind
+[15Jun2024 17:53:52.467] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: yoshio[/177.83.19.233:55540] logged in with entity id 51310 at (478.530952762105, 64.0, 1655.929845139289)
+[15Jun2024 17:53:52.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yoshio joined the game
+[15Jun2024 17:54:00.125] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 19695ms or 393 ticks behind
+[15Jun2024 17:54:49.326] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 34246ms or 684 ticks behind
+[15Jun2024 17:55:10.888] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6608ms or 132 ticks behind
+[15Jun2024 17:55:14.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: squidgame drowned
+[15Jun2024 17:55:38.509] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biscoito lost connection: Disconnected
+[15Jun2024 17:55:38.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Biscoito left the game
+[15Jun2024 17:55:48.959] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Koda lost connection: Disconnected
+[15Jun2024 17:55:48.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koda left the game
+[15Jun2024 17:56:03.021] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Koda[/177.22.168.30:12645] logged in with entity id 52729 at (960.6105916672061, 68.0, 1953.9154293459533)
+[15Jun2024 17:56:03.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koda joined the game
+[15Jun2024 17:56:05.067] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yoshio moved too quickly! 9.689740740561604,1.3787031594607981,-2.886786163868919
+[15Jun2024 17:56:05.094] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2064ms or 41 ticks behind
+[15Jun2024 17:56:07.841] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Biscoito[/186.221.46.78:54016] logged in with entity id 52768 at (1155.6999312033645, 34.0, 2435.6011506396003)
+[15Jun2024 17:56:07.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Biscoito joined the game
+[15Jun2024 17:56:41.575] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 21495ms or 429 ticks behind
+[15Jun2024 17:57:24.696] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 28166ms or 563 ticks behind
+[15Jun2024 17:58:08.527] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 28847ms or 576 ticks behind
+[15Jun2024 17:58:51.447] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 27967ms or 559 ticks behind
+[15Jun2024 17:59:18.088] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: squidgame lost connection: Disconnected
+[15Jun2024 17:59:18.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: squidgame left the game
+[15Jun2024 17:59:27.459] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 21029ms or 420 ticks behind
+[15Jun2024 17:59:58.570] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 16140ms or 322 ticks behind
+[15Jun2024 18:01:20.035] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2055ms or 41 ticks behind
+[15Jun2024 18:01:55.207] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 20176ms or 403 ticks behind
+[15Jun2024 18:02:28.978] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 18782ms or 375 ticks behind
+[15Jun2024 18:03:04.956] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 21026ms or 420 ticks behind
+[15Jun2024 18:03:42.058] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 22127ms or 442 ticks behind
+[15Jun2024 18:03:53.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koda fell from a high place
+[15Jun2024 18:04:16.206] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 19176ms or 383 ticks behind
+[15Jun2024 18:04:40.311] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9131ms or 182 ticks behind
+[15Jun2024 18:05:04.872] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9592ms or 191 ticks behind
+[15Jun2024 18:06:31.091] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[15Jun2024 18:06:57.613] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 11533ms or 230 ticks behind
+[15Jun2024 18:07:24.080] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 11500ms or 230 ticks behind
+[15Jun2024 18:07:43.826] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=544, y=67, z=1646} BlockPos{x=543, y=67, z=1645}
+[15Jun2024 18:07:54.989] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 15909ms or 318 ticks behind
+[15Jun2024 18:08:22.967] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 12971ms or 259 ticks behind
+[15Jun2024 18:08:50.527] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 12597ms or 251 ticks behind
+[15Jun2024 18:09:18.897] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13417ms or 268 ticks behind
+[15Jun2024 18:09:47.230] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13350ms or 267 ticks behind
+[15Jun2024 18:10:07.720] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5490ms or 109 ticks behind
+[15Jun2024 18:11:26.098] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
+[15Jun2024 18:11:55.435] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 14355ms or 287 ticks behind
+[15Jun2024 18:12:23.936] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13506ms or 270 ticks behind
+[15Jun2024 18:12:51.547] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 12617ms or 252 ticks behind
+[15Jun2024 18:13:21.188] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 14657ms or 293 ticks behind
+[15Jun2024 18:13:51.048] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 14868ms or 297 ticks behind
+[15Jun2024 18:14:21.015] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 14985ms or 299 ticks behind
+[15Jun2024 18:14:54.874] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 18894ms or 377 ticks behind
+[15Jun2024 18:16:26.427] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2047ms or 40 ticks behind
+[15Jun2024 18:16:54.110] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 12730ms or 254 ticks behind
+[15Jun2024 18:17:23.978] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 14898ms or 297 ticks behind
+[15Jun2024 18:17:51.303] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 12373ms or 247 ticks behind
+[15Jun2024 18:18:22.388] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 16107ms or 322 ticks behind
+[15Jun2024 18:18:49.378] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 11998ms or 239 ticks behind
+[15Jun2024 18:19:18.547] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 14217ms or 284 ticks behind
+[15Jun2024 18:19:46.191] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 12661ms or 253 ticks behind
+[15Jun2024 18:20:07.810] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6630ms or 132 ticks behind
+[15Jun2024 18:21:26.874] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2044ms or 40 ticks behind
+[15Jun2024 18:21:56.995] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 15149ms or 302 ticks behind
+[15Jun2024 18:22:22.460] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10530ms or 210 ticks behind
+[15Jun2024 18:22:46.238] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8808ms or 176 ticks behind
+[15Jun2024 18:23:09.736] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8505ms or 170 ticks behind
+[15Jun2024 18:23:38.327] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13597ms or 271 ticks behind
+[15Jun2024 18:24:09.718] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 16438ms or 328 ticks behind
+[15Jun2024 18:24:38.867] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 14187ms or 283 ticks behind
+[15Jun2024 18:25:03.902] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10072ms or 201 ticks behind
+[15Jun2024 18:26:29.534] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[15Jun2024 18:26:58.171] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13641ms or 272 ticks behind
+[15Jun2024 18:27:28.561] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 15431ms or 308 ticks behind
+[15Jun2024 18:27:40.466] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=586, y=64, z=1656} BlockPos{x=587, y=63, z=1656}
+[15Jun2024 18:27:45.186] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=591, y=64, z=1648} BlockPos{x=591, y=63, z=1649}
+[15Jun2024 18:27:45.604] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=591, y=64, z=1649} BlockPos{x=591, y=63, z=1650}
+[15Jun2024 18:28:05.648] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 22118ms or 442 ticks behind
+[15Jun2024 18:28:36.373] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 15743ms or 314 ticks behind
+[15Jun2024 18:29:08.800] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 17470ms or 349 ticks behind
+[15Jun2024 18:29:40.118] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 16338ms or 326 ticks behind
+[15Jun2024 18:30:07.598] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 12518ms or 250 ticks behind
+[15Jun2024 18:30:39.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koda was slain by Zombie
+[15Jun2024 18:30:42.452] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yoshio lost connection: Disconnected
+[15Jun2024 18:30:42.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yoshio left the game
+[15Jun2024 18:30:55.238] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: yoshio[/177.83.19.233:55768] logged in with entity id 63750 at (479.1626119691174, 64.0, 1656.6421266165842)
+[15Jun2024 18:30:55.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yoshio joined the game
+[15Jun2024 18:31:11.867] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yoshio lost connection: Disconnected
+[15Jun2024 18:31:11.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yoshio left the game
+[15Jun2024 18:31:21.955] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
+[15Jun2024 18:31:24.033] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biscoito lost connection: Disconnected
+[15Jun2024 18:31:24.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Biscoito left the game
+[15Jun2024 18:31:24.195] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Koda lost connection: Disconnected
+[15Jun2024 18:31:24.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koda left the game

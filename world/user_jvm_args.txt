@@ -1,0 +1,1 @@
+-Xmx3G -Xms1G
